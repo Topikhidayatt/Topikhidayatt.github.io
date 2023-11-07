@@ -255,7 +255,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-2cee223b {
 }
 
 .elementor-4685 .elementor-element.elementor-element-4c231a53.elementor-widget-image .elementor-widget-container img {
-    -webkit-mask-image: url('/assets/VINDY_104.jpg');
+    -webkit-mask-image: url('/assets/gallery/VINDY_104.webp');
     -webkit-mask-size: cover;
     -webkit-mask-position: center center;
 }
@@ -1484,7 +1484,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-7117903c {
 }
 
 .elementor-4685 .elementor-element.elementor-element-1776a10a>.elementor-background-overlay {
-    background-image: url('/assets/VINDY_145.jpg');
+    background-image: url('/assets/gallery/VINDY_145.jpg');
     background-size: cover;
     background-position: center center;
     background-color: #000000;
