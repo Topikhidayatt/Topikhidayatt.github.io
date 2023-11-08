@@ -2456,9 +2456,13 @@
 		function closeDialog() {
 			var x = document.getElementById("song");
 			x.play();
-			var dialogWidget = document.querySelector('.dialog-widget').remove();
-			var dialogWidget = document.querySelector('.dialog-widget').remove();
 			document.body.style.overflow = 'auto';
+			var dialogWidget = document.querySelector('.dialog-widget').remove();
+			var dialogWidget = document.querySelector('.dialog-widget').remove();
+			window.scrollTo({
+				top: 0,
+				behavior: 'auto' // You can also use 'auto' for instant scrolling
+			});
 		}
 	</script>
 
@@ -2471,10 +2475,6 @@
 	<script data-minify="1" src="./assets/qr-code.js" id="weddingpress-qr-js"></script>
 	<script data-minify="1" src="./assets/wdp-horizontal.js" id="wdp-horizontal-js-js"></script>
 	<script src="./assets/exad-scripts.min.js" id="exad-main-script-js"></script>
-	<script id="cui_js_script-js-extra">
-		var CUI_WP = { "ajaxurl": "https:\/\/zaavitation.com\/wp-admin\/admin-ajax.php", "cuiNonce": "f13eda05ea", "jpages": "false", "jPagesNum": "10", "textCounter": "true", "textCounterNum": "500", "widthWrap": "", "autoLoad": "true", "thanksComment": "Thanks for your comment!", "thanksReplyComment": "Thanks for answering the comment!", "duplicateComment": "You might have left one of the fields blank, or duplicate comments", "accept": "Accept", "cancel": "Cancel", "reply": "Reply", "textWriteComment": "Ucapan dan Doa", "classPopularComment": "cui-popular-comment", "textToDisplay": "Text to display", "textCharacteresMin": "2 characters minimum", "textNavNext": "Next", "textNavPrev": "Previous", "textMsgDeleteComment": "Do you want delete this comment?", "textLoadMore": "Load more" };
-	</script>
-	<script data-minify="1" src="./assets/cui_script.js" id="cui_js_script-js"></script>
 	<script data-minify="1" src="./assets/jquery.textareaCounter.js" id="cui_textCounter-js"></script>
 	<script src="./assets/jquery.placeholder.min.js" id="cui_placeholder-js"></script>
 	<script src="./assets/autosize.min.js" id="cui_autosize-js"></script>
@@ -2484,8 +2484,6 @@
 	<script src="./assets/waypoints.min.js" id="elementor-waypoints-js"></script>
 	<script src="./assets/odometer.min.js" id="odometer-js"></script>
 	<script id="powerpack-frontend-js-extra">
-		var ppLogin = { "empty_username": "Enter a username or email address.", "empty_password": "Enter password.", "empty_password_1": "Enter a password.", "empty_password_2": "Re-enter password.", "empty_recaptcha": "Please check the captcha to verify you are not a robot.", "email_sent": "A password reset email has been sent to the email address for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset.", "reset_success": "Your password has been reset successfully.", "ajax_url": "https:\/\/zaavitation.com\/wp-admin\/admin-ajax.php", "show_password": "Show password", "hide_password": "Hide password" };
-		var ppRegistration = { "invalid_username": "This username is invalid because it uses illegal characters. Please enter a valid username.", "username_exists": "This username is already registered. Please choose another one.", "empty_email": "Please type your email address.", "invalid_email": "The email address isn\u2019t correct!", "email_exists": "The email is already registered, please choose another one.", "password": "Password must not contain the character \"\\\\\"", "password_length": "Your password should be at least 8 characters long.", "password_mismatch": "Password does not match.", "invalid_url": "URL seems to be invalid.", "recaptcha_php_ver": "reCAPTCHA API requires PHP version 5.3 or above.", "recaptcha_missing_key": "Your reCAPTCHA Site or Secret Key is missing!", "show_password": "Show password", "hide_password": "Hide password", "ajax_url": "https:\/\/zaavitation.com\/wp-admin\/admin-ajax.php" };
 		var ppCoupons = { "copied_text": "Copied" };
 	</script>
 	<script src="./assets/frontend.min.js" id="powerpack-frontend-js"></script>
@@ -2504,7 +2502,7 @@
 		wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
 	</script>
 	<script defer id="elementor-pro-frontend-js-before">
-		var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/zaavitation.com\/wp-admin\/admin-ajax.php", "nonce": "ee282eeed1", "urls": { "assets": "https:\/\/zaavitation.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/zaavitation.com\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "id_ID", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/zaavitation.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+		var ElementorProFrontendConfig = { "nonce": "ee282eeed1", "urls": { "assets": "https:\/\/zaavitation.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/zaavitation.com\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "id_ID", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/zaavitation.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
 	</script>
 	<script src="./assets/frontend.min(1).js" id="elementor-pro-frontend-js"></script>
 	<script src="./assets/core.min.js" id="jquery-ui-core-js"></script>
