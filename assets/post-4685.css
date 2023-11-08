@@ -4705,7 +4705,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: 300;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/11/Nunito-Light.woff') format('woff');
+    src: url('/assets/Nunito-Light.woff') format('woff');
 }
 
 @font-face {
@@ -4713,7 +4713,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/11/Nunito-Regular.woff') format('woff');
+    src: url('/assets/Nunito-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -4721,7 +4721,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: 500;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/11/Nunito-Medium.woff') format('woff');
+    src: url('/assets/Nunito-Medium.woff') format('woff');
 }
 
 @font-face {
@@ -4729,7 +4729,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: 700;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/11/Nunito-Bold.woff') format('woff');
+    src: url('/assets/Nunito-Bold.woff') format('woff');
 }
 
 /* End Custom Fonts CSS */
@@ -4741,7 +4741,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: normal;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/11/DroidNaskh-Regular.woff') format('woff');
+    src: url('/assets/DroidNaskh-Regular.woff') format('woff');
 }
 
 /* End Custom Fonts CSS */
@@ -4753,7 +4753,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: normal;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/09/Alumatica.woff') format('woff');
+    src: url('/assets/Alumatica.woff') format('woff');
 }
 
 /* End Custom Fonts CSS */
@@ -4765,7 +4765,7 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-1ca32836 {
     font-style: normal;
     font-weight: normal;
     font-display: auto;
-    src: url('https://zaavitation.com/wp-content/uploads/2022/10/Signature-Collection.woff') format('woff');
+    src: url('/assets/Signature-Collection.woff') format('woff');
 }
 
 /* End Custom Fonts CSS */
