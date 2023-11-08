@@ -303,6 +303,9 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-2cee223b {
 
 .elementor-4685 .elementor-element.elementor-element-c1d4002 .elementor-repeater-item-78201c0.elementor-social-icon {
     background-color: #867566;
+    background-color: #867566;
+    padding: 15px 15px !important;
+    width: auto !important;
 }
 
 .elementor-4685 .elementor-element.elementor-element-c1d4002 .elementor-repeater-item-78201c0.elementor-social-icon i {
@@ -437,6 +440,8 @@ body.rtl .elementor-4685 .elementor-element.elementor-element-7117903c {
 
 .elementor-4685 .elementor-element.elementor-element-5f37a13c .elementor-repeater-item-78201c0.elementor-social-icon {
     background-color: #867566;
+    padding: 15px 15px !important;
+    width: auto !important;
 }
 
 .elementor-4685 .elementor-element.elementor-element-5f37a13c .elementor-repeater-item-78201c0.elementor-social-icon i {
