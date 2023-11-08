@@ -2313,6 +2313,45 @@
 	<link rel="stylesheet" id="elementor-gallery-css" href="./assets/e-gallery.min.css" media="all">
 	<link rel="stylesheet" id="e-animations-css" href="./assets/animations.min.css" media="all">
 
+	<style>
+		.button-undangan {
+			border: none;
+			border-radius: 8px 8px;
+			color: white;
+			padding: 10px 30px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 14px;
+			font-family: Nunito;
+			margin: 5px 10px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+
+		.button-undangan {
+			background-color: #867566;
+			color: white;
+			border: none;
+		}
+
+		.button-undangan:hover {
+			background-color: #5A4431;
+			color: white;
+			border: none;
+		}
+
+		.button-undangan:focus {
+			background-color: #867566;
+			color: white;
+			outline: none;
+		}
+
+		.elementor-background-slideshow__slide__image {
+			background-image: url('./assets/gallery/intro.webp');
+		}
+	</style>
+
 	<div
 		class="dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal noSelect"
 		id="elementor-popup-modal-14997" aria-modal="true" role="document" tabindex="0" style="">
@@ -2327,8 +2366,7 @@
 						class="elementor-section elementor-top-section elementor-element elementor-element-2a7bc2e4 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle wdp-sticky-section-no"
 						data-id="2a7bc2e4" data-element_type="section">
 						<div class="elementor-background-overlay">
-							<div class="elementor-background-slideshow__slide__image elementor-ken-burns elementor-ken-burns--in"
-								style="background-image: url('./assets/gallery/VINDY_73.webp');background-position: -24em center;">
+							<div class="elementor-background-slideshow__slide__image elementor-ken-burns elementor-ken-burns--in">
 							</div>
 						</div>
 						<div class="elementor-container elementor-column-gap-no">
@@ -2380,40 +2418,7 @@
 										data-id="268357fd" data-element_type="widget"
 										data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="html.default">
 										<div class="elementor-widget-container">
-											<style>
-												.button-undangan {
-													border: none;
-													border-radius: 8px 8px;
-													color: white;
-													padding: 7px 15px;
-													text-align: center;
-													text-decoration: none;
-													display: inline-block;
-													font-size: 12px;
-													font-family: Nunito;
-													margin: 5px 10px;
-													transition-duration: 0.4s;
-													cursor: pointer;
-												}
 
-												.button-undangan {
-													background-color: #867566;
-													color: white;
-													border: none;
-												}
-
-												.button-undangan:hover {
-													background-color: #5A4431;
-													color: white;
-													border: none;
-												}
-
-												.button-undangan:focus {
-													background-color: #867566;
-													color: white;
-													outline: none;
-												}
-											</style>
 
 											<center>
 												<button type="button" class="button-undangan"> Buka Undangan
@@ -2463,15 +2468,15 @@
 	<script>
 		jQuery('ready', function () {
 			var x = document.getElementById("song")
-			setTimeout(() => { x.pause();}, 500);
+			setTimeout(() => { x.pause(); }, 500);
 
 			jQuery('body').css('overflow', 'hidden');
 
 
 			jQuery('.button-undangan').on('click', () => {
+				x.play();
 				jQuery('.dialog-widget').delay(5000).css('opacity', '0');
 				jQuery('body').css('overflow', 'auto');
-
 			});
 		});
 	</script>
